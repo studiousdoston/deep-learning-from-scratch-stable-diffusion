@@ -17,7 +17,7 @@ Implementation of [DiffEdit (Couairon et al., 2022)](https://arxiv.org/abs/2210.
 
 You give a photo plus two prompts, e.g. *"a dog sitting on the grass"* → *"a cat sitting on the grass"*. The model **finds the part of the image to change by itself** and leaves everything else untouched. No hand-drawn mask is needed.
 
-![tea to hot chocolate](images/tea->hot_chocolate.png)
+![girl with hat to girl with cowboy hat](hat->cowboy_hat.png)
 ![tea to hot chocolate](images/tea->hot_chocolate.png)
 
 ### How it works
