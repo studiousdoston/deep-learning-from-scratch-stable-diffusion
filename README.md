@@ -35,8 +35,7 @@ You give a photo plus two prompts, e.g. *"a dog sitting on the grass"* → *"a c
 | Beret | beret → bowler hat | ✅ | worked at strength 0.5 |
 | Beret | colour change only | ❌ | colour-only edits give a weak mask |
 
-![dog to cat](<img width="794" height="394" alt="tea- hot_chocolate" src="https://github.com/user-attachments/assets/dbeb6e74-b7c5-4d16-adfd-3482257095fd" />
-)
+![dog to cat](dog->cat.png)
 
 ### What I learned
 - **Threshold is the most important setting.** The difference map is brightest where the prompts differ most (a dog's face), so a high threshold only catches the face. Too low and it leaks into the background.
